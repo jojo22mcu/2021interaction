@@ -1,0 +1,9 @@
+void setup(){
+  size(600,600);//視窗大小
+  fill(#958FDE);//文字顏色
+  textSize(80);
+}
+void draw(){
+  background(255);//背景白色
+  text("Time:"+frameCount,50,100);
+}//每秒60frame
